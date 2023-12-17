@@ -1,0 +1,13 @@
+.dateRange{
+    display: flex;
+    border: 2px solid yellow;
+    z-index: 999;
+    background-color: #e2e8f0;
+    width: 500px;
+    
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

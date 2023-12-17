@@ -1,0 +1,59 @@
+.dashboard{
+}
+.dashboard-container{
+    display: flex;
+    gap:20px;
+  
+}
+.barchart{
+    width: 50%;
+    height: 400px;
+}
+.daterange{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.input{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    font-weight: 800;
+}
+.filterContainer{
+    display: flex;
+    align-items: center;
+   
+    justify-content: space-evenly;
+}
+.filters{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:7px;
+}
+.filters label{
+    font-weight: 700;
+}
+.checkboxes{
+    display: flex;
+    flex-direction: column;
+    gap:0px;
+    line-height: 0;
+    text-align: right;
+}
+@media screen and (width<=700px) {
+
+    .dashboard-container{
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: center;
+    }
+    .barchart{
+        width: 100%;
+    }
+}
