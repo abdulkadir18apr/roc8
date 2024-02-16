@@ -7,7 +7,7 @@ import {
     setUserPreferenceInCookies,
   } from '../cookies/cookieManager';
 
-const url="https://data-vizz.abdulkadir19.repl.co/";
+const url="https://838c06f6-ff2e-434a-953a-e5aa8f782a3e-00-2p5qshp60xa8t.spock.replit.dev/";
 const headers = {
     'Content-Type': 'application/json',
     'authorization': localStorage.getItem('token')
