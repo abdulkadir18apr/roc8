@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const url="https://data-vizz.abdulkadir19.repl.co/"
+const url="https://838c06f6-ff2e-434a-953a-e5aa8f782a3e-00-2p5qshp60xa8t.spock.replit.dev/"
 
 const initialState={
     isLogin:localStorage.getItem("token")===null?false:true,
